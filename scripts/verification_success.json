@@ -1,0 +1,200 @@
+{
+    "General": {
+        "URL": "https://scan.coredao.org/api/chain/verify_contract",
+        "Method": "POST",
+        "Code": 200,
+        "Address": "172.67.41.7:443",
+        "ReferrerPolicy": "strict-origin-when-cross-origin"
+    },
+    "ResponseHeaders": {
+        "access-control-allow-headers": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With",
+        "access-control-allow-methods": "GET,HEAD,POST,OPTIONS",
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate"
+    },
+    "RequestHeaders": {
+        ":authority": "scan.coredao.org",
+        ":method": "POST",
+        ":path": "/api/chain/verify_contract",
+        ":scheme": "https",
+        "accept": "application/json, text/plain, */*",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "authorization": "bearer NWpUXBFmJEcqsKTJ1seVtgQ-n68",
+        "content-length": "997",
+        "content-type": "application/json;charset=UTF-8"
+    },
+    "RequestPayload": {
+        "argument": "0000000000000000000000000000000000000000000000000000000000000002",
+        "compilerType": 1,
+        "compilerVersion": "v0.6.12+commit.27d51765",
+        "contractAddress": "0xdd020ACD6A8321DAC7f2E1C42Bf6EFf4A64B8589",
+        "licenseType": 1,
+        "optimizeEnable": true,
+        "sourceCodes": [
+            {
+                "code": "Ly8gU291cmNlcyBmbGF0dGVuZWQgd2l0aCBoYXJkaGF0IHYyLjEzLjAgaHR0cHM6Ly9oYXJkaGF0Lm9yZwoKLy8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IDAuNi4xMjsKCmNvbnRyYWN0IFNpbXBsZSB7CiAgICB1aW50MjU2IHB1YmxpYyB2YWx1ZTsKICAgIGNvbnN0cnVjdG9yKHVpbnQyNTYgaW5pdFZhbHVlKSBwdWJsaWMgewogICAgICAgIHZhbHVlID0gaW5pdFZhbHVlOwogICAgfQoKICAgIGZ1bmN0aW9uIGluY3JlYXNlKHVpbnQyNTYgdmFsKSBleHRlcm5hbCB7CiAgICAgICAgdmFsdWUgPSB2YWx1ZSArIHZhbDsKICAgIH0KCiAgICBmdW5jdGlvbiBkZXNjcmVhc2UodWludDI1NiB2YWwpIGV4dGVybmFsIHsKICAgICAgICB2YWx1ZSA9IHZhbHVlIC0gdmFsOwogICAgfQoKICAgIGZ1bmN0aW9uIGluaXRpYWxpemUoKSBleHRlcm5hbCB7CiAgICAgICAgdmFsdWUgPSAwOwogICAgfQoKICAgIGZ1bmN0aW9uIHNldFZhbHVlKHVpbnQ1NiB2YWwpIGV4dGVybmFsIHsKICAgICAgICB2YWx1ZSA9IHZhbDsKICAgIH0KfQ"
+            }
+        ]
+    },
+    "Preview": {
+        "code": "00000",
+        "data": {
+            "success": "true",
+            "abi": "[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"initValue\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"val\",\"type\":\"uint256\"}],\"name\":\"descrease\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"val\",\"type\":\"uint256\"}],\"name\":\"increase\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"initialize\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint56\",\"name\":\"val\",\"type\":\"uint56\"}],\"name\":\"setValue\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"value\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}]",
+            "errMsg": "",
+            "response": "{\"contracts\":{\"/tmp/cd4b185b6a164560b1583a1b880ad8d6.sol:Simple\":{\"abi\":\"[{\\\"inputs\\\":[{\\\"internalType\\\":\\\"uint256\\\",\\\"name\\\":\\\"initValue\\\",\\\"type\\\":\\\"uint256\\\"}],\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"constructor\\\"},{\\\"inputs\\\":[{\\\"internalType\\\":\\\"uint256\\\",\\\"name\\\":\\\"val\\\",\\\"type\\\":\\\"uint256\\\"}],\\\"name\\\":\\\"descrease\\\",\\\"outputs\\\":[],\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"function\\\"},{\\\"inputs\\\":[{\\\"internalType\\\":\\\"uint256\\\",\\\"name\\\":\\\"val\\\",\\\"type\\\":\\\"uint256\\\"}],\\\"name\\\":\\\"increase\\\",\\\"outputs\\\":[],\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"function\\\"},{\\\"inputs\\\":[],\\\"name\\\":\\\"initialize\\\",\\\"outputs\\\":[],\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"function\\\"},{\\\"inputs\\\":[{\\\"internalType\\\":\\\"uint56\\\",\\\"name\\\":\\\"val\\\",\\\"type\\\":\\\"uint56\\\"}],\\\"name\\\":\\\"setValue\\\",\\\"outputs\\\":[],\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"function\\\"},{\\\"inputs\\\":[],\\\"name\\\":\\\"value\\\",\\\"outputs\\\":[{\\\"internalType\\\":\\\"uint256\\\",\\\"name\\\":\\\"\\\",\\\"type\\\":\\\"uint256\\\"}],\\\"stateMutability\\\":\\\"view\\\",\\\"type\\\":\\\"function\\\"}]\",\"bin\":\"608060405234801561001057600080fd5b5060405161017a38038061017a8339818101604052602081101561003357600080fd5b5051600055610133806100476000396000f3fe6080604052348015600f57600080fd5b506004361060505760003560e01c806330f3f0db1460555780633fa4f2451460715780637c51a1f11460895780637e18d3ff1460ac5780638129fc1c1460c6575b600080fd5b606f60048036036020811015606957600080fd5b503560cc565b005b607760d7565b60408051918252519081900360200190f35b606f60048036036020811015609d57600080fd5b503566ffffffffffffff1660dd565b606f6004803603602081101560c057600080fd5b503560eb565b606f60f7565b600080549091019055565b60005481565b66ffffffffffffff16600055565b60008054919091039055565b6000805556fea2646970667358221220e7102cb680588c28f459bdf891637a4739f1e1fa390aa437d4a747a8d1b6e0f964736f6c634300060c0033\",\"bin-runtime\":\"6080604052348015600f57600080fd5b506004361060505760003560e01c806330f3f0db1460555780633fa4f2451460715780637c51a1f11460895780637e18d3ff1460ac5780638129fc1c1460c6575b600080fd5b606f60048036036020811015606957600080fd5b503560cc565b005b607760d7565b60408051918252519081900360200190f35b606f60048036036020811015609d57600080fd5b503566ffffffffffffff1660dd565b606f6004803603602081101560c057600080fd5b503560eb565b606f60f7565b600080549091019055565b60005481565b66ffffffffffffff16600055565b60008054919091039055565b6000805556fea2646970667358221220e7102cb680588c28f459bdf891637a4739f1e1fa390aa437d4a747a8d1b6e0f964736f6c634300060c0033\",\"opcodes\":\"PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x40 MLOAD PUSH2 0x17A CODESIZE SUB DUP1 PUSH2 0x17A DUP4 CODECOPY DUP2 DUP2 ADD PUSH1 0x40 MSTORE PUSH1 0x20 DUP2 LT ISZERO PUSH2 0x33 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP MLOAD PUSH1 0x0 SSTORE PUSH2 0x133 DUP1 PUSH2 0x47 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x50 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x30F3F0DB EQ PUSH1 0x55 JUMPI DUP1 PUSH4 0x3FA4F245 EQ PUSH1 0x71 JUMPI DUP1 PUSH4 0x7C51A1F1 EQ PUSH1 0x89 JUMPI DUP1 PUSH4 0x7E18D3FF EQ PUSH1 0xAC JUMPI DUP1 PUSH4 0x8129FC1C EQ PUSH1 0xC6 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x6F PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH1 0x69 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP CALLDATALOAD PUSH1 0xCC JUMP JUMPDEST STOP JUMPDEST PUSH1 0x77 PUSH1 0xD7 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x6F PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH1 0x9D JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP CALLDATALOAD PUSH7 0xFFFFFFFFFFFFFF AND PUSH1 0xDD JUMP JUMPDEST PUSH1 0x6F PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH1 0xC0 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP CALLDATALOAD PUSH1 0xEB JUMP JUMPDEST PUSH1 0x6F PUSH1 0xF7 JUMP JUMPDEST PUSH1 0x0 DUP1 SLOAD SWAP1 SWAP2 ADD SWAP1 SSTORE JUMP JUMPDEST PUSH1 0x0 SLOAD DUP2 JUMP JUMPDEST PUSH7 0xFFFFFFFFFFFFFF AND PUSH1 0x0 SSTORE JUMP JUMPDEST PUSH1 0x0 DUP1 SLOAD SWAP2 SWAP1 SWAP2 SUB SWAP1 SSTORE JUMP JUMPDEST PUSH1 0x0 DUP1 SSTORE JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE7 LT 0x2C 0xB6 DUP1 PC DUP13 0x28 DELEGATECALL MSIZE 0xBD 0xF8 SWAP2 PUSH4 0x7A4739F1 0xE1 STATICCALL CODECOPY EXP LOG4 CALLDATACOPY 0xD4 0xA7 SELFBALANCE 0xA8 0xD1 0xB6 0xE0 0xF9 PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER \",\"srcmap\":\"121:423:0:-:0;;;169:72;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;169:72:0;217:5;:17;121:423;;;;;;\"}},\"sourceList\":[\"/tmp/cd4b185b6a164560b1583a1b880ad8d6.sol\"],\"version\":\"0.6.12+commit.27d51765.Linux.g++\"}\n",
+            "txHash": "b8f025f9a8658069a522fbdbb978f616dfab82d7218a9aeea34d3e94a9c31146",
+            "message": "successful"
+        }
+    },
+    "response": {
+        "code": "00000",
+        "data": {
+            "success": true,
+            "response": "{\"contracts\":{\"/tmp/cd4b185b6a164560b1583a1b880ad8d6.sol:Simple\":{\"abi\":\"[{\\\"inputs\\\":[{\\\"internalType\\\":\\\"uint256\\\",\\\"name\\\":\\\"initValue\\\",\\\"type\\\":\\\"uint256\\\"}],\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"constructor\\\"},{\\\"inputs\\\":[{\\\"internalType\\\":\\\"uint256\\\",\\\"name\\\":\\\"val\\\",\\\"type\\\":\\\"uint256\\\"}],\\\"name\\\":\\\"descrease\\\",\\\"outputs\\\":[],\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"function\\\"},{\\\"inputs\\\":[{\\\"internalType\\\":\\\"uint256\\\",\\\"name\\\":\\\"val\\\",\\\"type\\\":\\\"uint256\\\"}],\\\"name\\\":\\\"increase\\\",\\\"outputs\\\":[],\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"function\\\"},{\\\"inputs\\\":[],\\\"name\\\":\\\"initialize\\\",\\\"outputs\\\":[],\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"function\\\"},{\\\"inputs\\\":[{\\\"internalType\\\":\\\"uint56\\\",\\\"name\\\":\\\"val\\\",\\\"type\\\":\\\"uint56\\\"}],\\\"name\\\":\\\"setValue\\\",\\\"outputs\\\":[],\\\"stateMutability\\\":\\\"nonpayable\\\",\\\"type\\\":\\\"function\\\"},{\\\"inputs\\\":[],\\\"name\\\":\\\"value\\\",\\\"outputs\\\":[{\\\"internalType\\\":\\\"uint256\\\",\\\"name\\\":\\\"\\\",\\\"type\\\":\\\"uint256\\\"}],\\\"stateMutability\\\":\\\"view\\\",\\\"type\\\":\\\"function\\\"}]\",\"bin\":\"608060405234801561001057600080fd5b5060405161017a38038061017a8339818101604052602081101561003357600080fd5b5051600055610133806100476000396000f3fe6080604052348015600f57600080fd5b506004361060505760003560e01c806330f3f0db1460555780633fa4f2451460715780637c51a1f11460895780637e18d3ff1460ac5780638129fc1c1460c6575b600080fd5b606f60048036036020811015606957600080fd5b503560cc565b005b607760d7565b60408051918252519081900360200190f35b606f60048036036020811015609d57600080fd5b503566ffffffffffffff1660dd565b606f6004803603602081101560c057600080fd5b503560eb565b606f60f7565b600080549091019055565b60005481565b66ffffffffffffff16600055565b60008054919091039055565b6000805556fea2646970667358221220e7102cb680588c28f459bdf891637a4739f1e1fa390aa437d4a747a8d1b6e0f964736f6c634300060c0033\",\"bin-runtime\":\"6080604052348015600f57600080fd5b506004361060505760003560e01c806330f3f0db1460555780633fa4f2451460715780637c51a1f11460895780637e18d3ff1460ac5780638129fc1c1460c6575b600080fd5b606f60048036036020811015606957600080fd5b503560cc565b005b607760d7565b60408051918252519081900360200190f35b606f60048036036020811015609d57600080fd5b503566ffffffffffffff1660dd565b606f6004803603602081101560c057600080fd5b503560eb565b606f60f7565b600080549091019055565b60005481565b66ffffffffffffff16600055565b60008054919091039055565b6000805556fea2646970667358221220e7102cb680588c28f459bdf891637a4739f1e1fa390aa437d4a747a8d1b6e0f964736f6c634300060c0033\",\"opcodes\":\"PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x40 MLOAD PUSH2 0x17A CODESIZE SUB DUP1 PUSH2 0x17A DUP4 CODECOPY DUP2 DUP2 ADD PUSH1 0x40 MSTORE PUSH1 0x20 DUP2 LT ISZERO PUSH2 0x33 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP MLOAD PUSH1 0x0 SSTORE PUSH2 0x133 DUP1 PUSH2 0x47 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x50 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x30F3F0DB EQ PUSH1 0x55 JUMPI DUP1 PUSH4 0x3FA4F245 EQ PUSH1 0x71 JUMPI DUP1 PUSH4 0x7C51A1F1 EQ PUSH1 0x89 JUMPI DUP1 PUSH4 0x7E18D3FF EQ PUSH1 0xAC JUMPI DUP1 PUSH4 0x8129FC1C EQ PUSH1 0xC6 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x6F PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH1 0x69 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP CALLDATALOAD PUSH1 0xCC JUMP JUMPDEST STOP JUMPDEST PUSH1 0x77 PUSH1 0xD7 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x6F PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH1 0x9D JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP CALLDATALOAD PUSH7 0xFFFFFFFFFFFFFF AND PUSH1 0xDD JUMP JUMPDEST PUSH1 0x6F PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH1 0xC0 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP CALLDATALOAD PUSH1 0xEB JUMP JUMPDEST PUSH1 0x6F PUSH1 0xF7 JUMP JUMPDEST PUSH1 0x0 DUP1 SLOAD SWAP1 SWAP2 ADD SWAP1 SSTORE JUMP JUMPDEST PUSH1 0x0 SLOAD DUP2 JUMP JUMPDEST PUSH7 0xFFFFFFFFFFFFFF AND PUSH1 0x0 SSTORE JUMP JUMPDEST PUSH1 0x0 DUP1 SLOAD SWAP2 SWAP1 SWAP2 SUB SWAP1 SSTORE JUMP JUMPDEST PUSH1 0x0 DUP1 SSTORE JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE7 LT 0x2C 0xB6 DUP1 PC DUP13 0x28 DELEGATECALL MSIZE 0xBD 0xF8 SWAP2 PUSH4 0x7A4739F1 0xE1 STATICCALL CODECOPY EXP LOG4 CALLDATACOPY 0xD4 0xA7 SELFBALANCE 0xA8 0xD1 0xB6 0xE0 0xF9 PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER \",\"srcmap\":\"121:423:0:-:0;;;169:72;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;169:72:0;217:5;:17;121:423;;;;;;\"}},\"sourceList\":[\"/tmp/cd4b185b6a164560b1583a1b880ad8d6.sol\"],\"version\":\"0.6.12+commit.27d51765.Linux.g++\"}\n",
+            "abi": "[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"initValue\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"val\",\"type\":\"uint256\"}],\"name\":\"descrease\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"val\",\"type\":\"uint256\"}],\"name\":\"increase\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"initialize\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint56\",\"name\":\"val\",\"type\":\"uint56\"}],\"name\":\"setValue\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"value\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}]",
+            "errMsg": "",
+            "txHash": "b8f025f9a8658069a522fbdbb978f616dfab82d7218a9aeea34d3e94a9c31146"
+        },
+        "message": "successful"
+    }
+}
+
+
+
+failed codes:
+{
+    "timestamp": "2023-03-22T00:22:13.859+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "errors": [
+        {
+            "codes": [
+                "NotEmpty.abiSubmitRequest.licenseType",
+                "NotEmpty.licenseType",
+                "NotEmpty.java.lang.String",
+                "NotEmpty"
+            ],
+            "arguments": [
+                {
+                    "codes": [
+                        "abiSubmitRequest.licenseType",
+                        "licenseType"
+                    ],
+                    "arguments": null,
+                    "defaultMessage": "licenseType",
+                    "code": "licenseType"
+                }
+            ],
+            "defaultMessage": "must not be empty",
+            "objectName": "abiSubmitRequest",
+            "field": "licenseType",
+            "rejectedValue": null,
+            "bindingFailure": false,
+            "code": "NotEmpty"
+        },
+        {
+            "codes": [
+                "NotEmpty.abiSubmitRequest.contractAddress",
+                "NotEmpty.contractAddress",
+                "NotEmpty.java.lang.String",
+                "NotEmpty"
+            ],
+            "arguments": [
+                {
+                    "codes": [
+                        "abiSubmitRequest.contractAddress",
+                        "contractAddress"
+                    ],
+                    "arguments": null,
+                    "defaultMessage": "contractAddress",
+                    "code": "contractAddress"
+                }
+            ],
+            "defaultMessage": "must not be empty",
+            "objectName": "abiSubmitRequest",
+            "field": "contractAddress",
+            "rejectedValue": null,
+            "bindingFailure": false,
+            "code": "NotEmpty"
+        },
+        {
+            "codes": [
+                "NotNull.abiSubmitRequest.compilerType",
+                "NotNull.compilerType",
+                "NotNull.java.lang.Integer",
+                "NotNull"
+            ],
+            "arguments": [
+                {
+                    "codes": [
+                        "abiSubmitRequest.compilerType",
+                        "compilerType"
+                    ],
+                    "arguments": null,
+                    "defaultMessage": "compilerType",
+                    "code": "compilerType"
+                }
+            ],
+            "defaultMessage": "must not be null",
+            "objectName": "abiSubmitRequest",
+            "field": "compilerType",
+            "rejectedValue": null,
+            "bindingFailure": false,
+            "code": "NotNull"
+        },
+        {
+            "codes": [
+                "NotEmpty.abiSubmitRequest.compilerVersion",
+                "NotEmpty.compilerVersion",
+                "NotEmpty.java.lang.String",
+                "NotEmpty"
+            ],
+            "arguments": [
+                {
+                    "codes": [
+                        "abiSubmitRequest.compilerVersion",
+                        "compilerVersion"
+                    ],
+                    "arguments": null,
+                    "defaultMessage": "compilerVersion",
+                    "code": "compilerVersion"
+                }
+            ],
+            "defaultMessage": "must not be empty",
+            "objectName": "abiSubmitRequest",
+            "field": "compilerVersion",
+            "rejectedValue": null,
+            "bindingFailure": false,
+            "code": "NotEmpty"
+        },
+        {
+            "codes": [
+                "NotEmpty.abiSubmitRequest.sourceCodes",
+                "NotEmpty.sourceCodes",
+                "NotEmpty.java.util.List",
+                "NotEmpty"
+            ],
+            "arguments": [
+                {
+                    "codes": [
+                        "abiSubmitRequest.sourceCodes",
+                        "sourceCodes"
+                    ],
+                    "arguments": null,
+                    "defaultMessage": "sourceCodes",
+                    "code": "sourceCodes"
+                }
+            ],
+            "defaultMessage": "must not be empty",
+            "objectName": "abiSubmitRequest",
+            "field": "sourceCodes",
+            "rejectedValue": null,
+            "bindingFailure": false,
+            "code": "NotEmpty"
+        }
+    ],
+    "message": "Validation failed for object='abiSubmitRequest'. Error count: 5",
+    "path": "/api/chain/verify_contract"
+}
