@@ -63,7 +63,7 @@ module.exports = {
   core: {
     usdt: {
       name: "usdt",
-      address: "0xa8bB10078d72E148964CABe0Da784EDe5903Fd95", // TODO
+      address: "0x5A15e63dEcaFEdcfB785AfF6386F6093C932cdd4", // TODO
       decimals: 6,
       priceFeed: "0x9BB8A6dcD83E36726Cc230a97F1AF8a84ae5F128",
       priceDecimals: 8,
@@ -91,7 +91,7 @@ module.exports = {
     },
     weth: {
       name: "weth",
-      address: "0x0F65a39b1Ff67569a8851866957A96687b9BDab8", // TODO
+      address: "0x81D096d422c2de8FE0CD02257408A4F9145eC1C9", // TODO
       decimals: 18,
       priceFeed: "0xB8C458C957a6e6ca7Cc53eD95bEA548c52AFaA24",
       priceDecimals: 8,
@@ -119,7 +119,7 @@ module.exports = {
     },
     link: {
       name: "link",
-      address: "0x05baccbA7687Bb5859D8055619b41a1D6598eae7", // TODO
+      address: "0x46ed7062Cb0ffa6D2966A40D5c321e14d4c4921F", // TODO
       decimals: 18,
       priceFeed: "0x6d5689Ad4C1806D1BA0c70Ab95ebe0Da6B204fC5",
       priceDecimals: 8,

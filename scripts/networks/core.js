@@ -23,15 +23,15 @@ const deployMulticall = require("../core/deployMulticall");
 const deploy_core = async () => {
   syncDeployInfo("usdt", {
     name: "usdt",
-    imple: "0xa8bB10078d72E148964CABe0Da784EDe5903Fd95",
+    imple: "0x5A15e63dEcaFEdcfB785AfF6386F6093C932cdd4",
   });
   syncDeployInfo("weth", {
     name: "weth",
-    imple: "0x0F65a39b1Ff67569a8851866957A96687b9BDab8",
+    imple: "0x81D096d422c2de8FE0CD02257408A4F9145eC1C9",
   });
   syncDeployInfo("link", {
     name: "link",
-    imple: "0x05baccbA7687Bb5859D8055619b41a1D6598eae7",
+    imple: "0x46ed7062Cb0ffa6D2966A40D5c321e14d4c4921F",
   });
   syncDeployInfo("MultiSigner1", {
     name: "MultiSigner1",
