@@ -1,4 +1,3 @@
-contracts.zip
 node_modules/
 .vscode
 typechain/
@@ -20,3 +19,4 @@ cache
 artifacts
 scripts/deploy-hardhat.json
 scripts/deploy-localhost.json
+env.json
