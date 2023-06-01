@@ -30,7 +30,7 @@ async function main() {
       busdHardCap,
       busdBasisPoints,
       unlockTime
-    ]
+    ] 
   ), "treasury.initialize")
 
   return { treasury }

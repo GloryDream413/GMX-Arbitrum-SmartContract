@@ -19,25 +19,19 @@ const deployPriceFeed = require("../core/deployPriceFeed");
 const { getGasUsed, syncDeployInfo } = require("../shared/syncParams");
 const deployGlpRewardRouter = require("../staking/deployGlpRewardRouter");
 const deployMulticall = require("../core/deployMulticall");
-// const directPoolDeposit = require("../core/directPoolDeposit");
-// const configureNewToken = require("../peripherals/configureNewToken");
 
 const deploy_core = async () => {
   syncDeployInfo("usdt", {
     name: "usdt",
-    imple: "0x7d43AABC515C356145049227CeE54B608342c0ad",
-  });
-  syncDeployInfo("wftm", {
-    name: "wftm",
-    imple: "0x07B9c47452C41e8E00f98aC4c075F5c443281d2A",
+    imple: "0xa8bB10078d72E148964CABe0Da784EDe5903Fd95",
   });
   syncDeployInfo("weth", {
     name: "weth",
-    imple: "0xC360D44d9021E0d9D2781a6c5c269D209F43dAa7",
+    imple: "0x0F65a39b1Ff67569a8851866957A96687b9BDab8",
   });
-  syncDeployInfo("wbtc", {
-    name: "wbtc",
-    imple: "0xa5aFDcaaD3E67261e2DEe707476699ef968cF57c",
+  syncDeployInfo("link", {
+    name: "link",
+    imple: "0x05baccbA7687Bb5859D8055619b41a1D6598eae7",
   });
   syncDeployInfo("MultiSigner1", {
     name: "MultiSigner1",
@@ -64,7 +58,6 @@ const deploy_core = async () => {
     imple: "0xfA9E2084fc38DaFca0aea969bE314061E5F1d424",
   });
   await deployMulticall()
-
   await deployGMX()
   await deployVault()
   await deployVaultReader()
@@ -86,9 +79,6 @@ const deploy_core = async () => {
   await deployGlpRewardRouter()
 
   console.log("gas used:", getGasUsed());
-
-  // await directPoolDeposit('1000000000000000000') // 1 WETH
-  //  await configureNewToken()
 };
 
 module.exports = { deploy_core };

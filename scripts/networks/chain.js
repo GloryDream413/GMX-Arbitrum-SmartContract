@@ -1,52 +1,52 @@
 const chainInfo = {
     core: {
         gmx: {
-            name: "CRUST",
-            symbol: "CRUST"
+            name: "ZOMI",
+            symbol: "ZOMI"
         },
         esgmx: {
-            name: "Escrowed CRUST",
-            symbol: "zCRUST"
+            name: "Escrowed ZOMI",
+            symbol: "zZOMI"
         },
         esgmxiou: {
-            name: "zCRUST IOU",
-            symbol: "zCRUST:IOU"
+            name: "zZOMI IOU",
+            symbol: "zZOMI:IOU"
         },
         bngmx: {
-            name: "Bonus CRUST",
-            symbol: "bnCRUST"
+            name: "Bonus ZOMI",
+            symbol: "bnZOMI"
         },
         glp: {
-            name: "CRUST LP",
-            symbol: "CLP"
+            name: "ZLP",
+            symbol: "ZLP"
         },
         sgmx: {
-            name: "Staked CRUST",
-            symbol: "sCRUST",
+            name: "Staked ZOMI",
+            symbol: "sZOMI",
         },
         sbgmx: {
-            name: "Staked + Bonus CRUST",
-            symbol: "sbCRUST",
+            name: "Staked + Bonus ZOMI",
+            symbol: "sbZOMI",
         },
         sbfgmx: {
-            name: "Staked + Bonus + Fee CRUST",
-            symbol: "sbfCRUST"
+            name: "Staked + Bonus + Fee ZOMI",
+            symbol: "sbfZOMI"
         },
         fglp: {
-            name: "Fee CLP",
-            symbol: "fCLP"
+            name: "Fee ZLP",
+            symbol: "fZLP"
         },
         fsglp: {
-            name: "Fee + Staked CLP",
-            symbol: "fsCLP"
+            name: "Fee + Staked ZLP",
+            symbol: "fsZLP"
         },
         vgmx: {
-            name: "Vested CRUST",
-            symbol: "vCRUST"
+            name: "Vested ZOMI",
+            symbol: "vZOMI"
         },
         vglp: {
-            name: "Vested CLP",
-            symbol: "vCLP"
+            name: "Vested ZLP",
+            symbol: "vZLP"
         }
     },
     localhost: {

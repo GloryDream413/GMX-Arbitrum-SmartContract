@@ -63,7 +63,7 @@ module.exports = {
   core: {
     usdt: {
       name: "usdt",
-      address: "0x7d43AABC515C356145049227CeE54B608342c0ad", // TODO
+      address: "0xa8bB10078d72E148964CABe0Da784EDe5903Fd95", // TODO
       decimals: 6,
       priceFeed: "0x9BB8A6dcD83E36726Cc230a97F1AF8a84ae5F128",
       priceDecimals: 8,
@@ -89,37 +89,9 @@ module.exports = {
       minLiquidityThresholdLong: 12 * 1000 * 1000,
       minLiquidityThresholdShort: 5 * 1000 * 1000,
     },
-    wftm: {
-      name: "wftm",
-      address: "0x07B9c47452C41e8E00f98aC4c075F5c443281d2A", // TODO
-      decimals: 18,
-      priceFeed: "0xe04676B9A9A2973BCb0D1478b5E1E9098BBB7f3D",
-      priceDecimals: 8,
-      stable: false,
-      tokenWeight: 2000,
-      minProfitBps: 0,
-      maxUsdgAmount: 0, //10 * 1000 * 1000,
-      bufferAmount: 1 * 1000 * 1000,
-      isStable: false,
-      isShortable: true,
-      fastPricePrecision: 1000,
-      maxCumulativeDeltaDiff: 0.1 * 10 * 1000 * 1000, // 10%
-      maxGlobalLongSize: 30 * 1000 * 1000,
-      maxGlobalShortSize: 15 * 1000 * 1000,
-      openInterestLimitLong: 80 * 1000 * 1000,
-      openInterestLimitShort: 50 * 1000 * 1000,
-      maxOpenInterestLong: 75 * 1000 * 1000,
-      maxOpenInterestShort: 50 * 1000 * 1000,
-      openInterestIncrementLong: 100 * 1000,
-      openInterestIncrementShort: 50 * 1000,
-      maxLiquidityThresholdLong: 15 * 1000 * 1000,
-      maxLiquidityThresholdShort: 8 * 1000 * 1000,
-      minLiquidityThresholdLong: 12 * 1000 * 1000,
-      minLiquidityThresholdShort: 5 * 1000 * 1000,
-    },
     weth: {
       name: "weth",
-      address: "0xC360D44d9021E0d9D2781a6c5c269D209F43dAa7", // TODO
+      address: "0x0F65a39b1Ff67569a8851866957A96687b9BDab8", // TODO
       decimals: 18,
       priceFeed: "0xB8C458C957a6e6ca7Cc53eD95bEA548c52AFaA24",
       priceDecimals: 8,
@@ -145,15 +117,15 @@ module.exports = {
       minLiquidityThresholdLong: 12 * 1000 * 1000,
       minLiquidityThresholdShort: 5 * 1000 * 1000,
     },
-    wbtc: {
-      name: "wbtc",
-      address: "0xa5aFDcaaD3E67261e2DEe707476699ef968cF57c", // TODO
-      decimals: 8,
-      priceFeed: "0x65E8d79f3e8e36fE48eC31A2ae935e92F5bBF529",
+    link: {
+      name: "link",
+      address: "0x05baccbA7687Bb5859D8055619b41a1D6598eae7", // TODO
+      decimals: 18,
+      priceFeed: "0x6d5689Ad4C1806D1BA0c70Ab95ebe0Da6B204fC5",
       priceDecimals: 8,
       stable: false,
       tokenWeight: 10000,
-      minProfitBps: 200,
+      minProfitBps: 300,
       maxUsdgAmount: 0, //10 * 1000 * 1000,
       bufferAmount: 1 * 1000 * 1000,
       isStable: false,
@@ -172,6 +144,6 @@ module.exports = {
       maxLiquidityThresholdShort: 8 * 1000 * 1000,
       minLiquidityThresholdLong: 12 * 1000 * 1000,
       minLiquidityThresholdShort: 5 * 1000 * 1000,
-    },
+    }
   }
 };
