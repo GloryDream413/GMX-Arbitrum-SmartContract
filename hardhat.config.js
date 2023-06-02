@@ -42,7 +42,7 @@ module.exports = {
     hardhat: {
       allowUnlimitedContractSize: true
     },
-    core: {
+    ftmTestnet: {
       url: CORE_RPC,
       gasPrice: 2000000000,
       chainId: 4002,
@@ -51,11 +51,11 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-      core: CORESCAN_API_KEY,
+      ftmTestnet: CORESCAN_API_KEY,
     },
     customChains: [
       {
-        network: "core",
+        network: "ftmTestnet",
         chainId: 1116,
         urls: {
           apiURL: "https://openapi.coredao.org/api",
